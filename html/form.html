@@ -6,9 +6,30 @@
     </head>
     <body>
         <h1>form 관련요소</h1>
-        ID : <input type="text" placeholder="영문으로만 써주세요"/><br/>
-        PW : <input type="password"/><br/>
-        Gender : Man <input type="radio" name="gender" />, Woman <input type="radio" name="gender" /><br/>
-        Hobby : Movie <input type="checkbox" name="hobby" checked>, Music<input type="checkbox" name="hobby"> Book <input type="checkbox" name="hobby">
+        <form action="test.html">
+            ID : <input type="text" placeholder="영문으로만 써주세요"/><br/>
+            PW : <input type="password"/><br/>
+            Gender : Man <input type="radio" name="gender" />, Woman <input type="radio" name="gender" /><br/>
+            Hobby : Movie <input type="checkbox" name="hobby" checked>, Music<input type="checkbox" name="hobby"> Book <input type="checkbox" name="hobby"><br/>
+            photo upload :<input type="file"><br>
+            City:
+             <select>
+                <option>Seoul</option>
+                <option>Incheon</option>
+                <option>Busan</option>
+                <option selected>Daegu</option>
+            </select><br>
+            About me :
+            <textarea cols="30" rows="5" placeholder="Short About you"></textarea><br>
+            <button type="submit">Send</button><br>
+            <button type="reset">Init</button>
+            
+            <br><br>
+            <input type='submit' value="Send"><br>
+            <input type='reset' value="Init"><br>
+            <input type="button" value="commit"><br>
+            <input type="image" src="" alt="" width="" height="">
+            
+        </form>
     </body>
 </html>
